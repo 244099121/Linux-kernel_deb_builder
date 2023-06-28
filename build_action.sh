@@ -14,7 +14,7 @@ sudo apt build-dep -y linux
 cd "${GITHUB_WORKSPACE}" || exit
 
 # download kernel source
-wget https://github.com/zen-kernel/zen-kernel/archive/refs/tags/"$VERSION"-zen1.tar.gz
+wget https://github.com/zen-kernel/zen-kernel/archive/refs/tags/6.4-zen1.tar.gz
 tar -zxvf zen-kernel-"$VERSION"-zen1.tar.gz
 cd zen-kernel-"$VERSION"-zen1
 # copy config file
