@@ -15,8 +15,8 @@ cd "${GITHUB_WORKSPACE}" || exit
 
 # download kernel source
 wget https://github.com/zen-kernel/zen-kernel/archive/refs/tags/6.4-zen1.tar.gz
-tar -zxvf zen-kernel-"$VERSION"-zen1.tar.gz
-cd zen-kernel-"$VERSION"-zen1
+tar -zxvf zen-kernel-6.4-tar.gz
+cd zen-kernel-6.4-zen1
 # copy config file
 cp ../config .config
 #
