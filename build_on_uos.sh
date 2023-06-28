@@ -11,8 +11,8 @@ sudo apt install -y wget
 sudo apt build-dep -y linux
 
 # download kernel source
-wget http://www.kernel.org/pub/linux/kernel/v5.x/linux-"$VERSION".tar.xz
-tar -xf linux-"$VERSION".tar.xz
+wget https://github.com/zen-kernel/zen-kernel/archive/refs/tags/"$VERSION"-zen1.tar.gz
+tar -zxvf "$VERSION"-zen1.tar.gz
 cd linux-"$VERSION" || exit
 
 # copy config file
